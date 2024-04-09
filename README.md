@@ -44,7 +44,7 @@ Viết chương trình dưới dạng hàm thực hiện các chức năng sau:
 7.	Nhập số nguyên k. Sắp xếp hàng k của ma trận theo thứ tự tăng dần.
 8.	Ghi vào tệp daysochan.txt các phần tử chẵn của ma trận. Đọc dữ liệu từ tệp ra màn hình.
 Chương trình chính gọi thực hiện các hàm trên.
-https://meet.google.com/lookup/hnygpjke5l?authuser=0&hs=179
+
 
 BÀI SỐ 5.
 Định nghĩa cấu trúc máy tính bao gồm các thông tin: mã máy(kiểu xâu kí tự), tên máy (kiểu xâu kí tự), ngày sản xuất (kiểu ngày/tháng/năm), Nhà sản xuất (kiểu xâu kí tự), Giá (kiểu số).

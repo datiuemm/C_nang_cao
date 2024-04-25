@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//	for (int i=0;i<n;i++);
-//	for (int j=0;j<m;j++);
+
 
 void nhaptt (int *p,int n,int m){
 	for (int i=0;i<n;i++)
@@ -12,8 +11,7 @@ void nhaptt (int *p,int n,int m){
 	}
 }
 
-//	for (int i=0;i<n;i++);
-//	for (int j=0;j<m;j++);
+
 
 void intt (int *p,int n,int m){
 	printf ("\nMang da nhap la:");
@@ -27,8 +25,7 @@ void intt (int *p,int n,int m){
 	}
 }
 
-//	for (int i=0;i<n;i++);
-//	for (int j=0;j<m;j++);
+
 
 void tbc (int *p,int n,int m){
 	int dem=0;
@@ -43,8 +40,7 @@ void tbc (int *p,int n,int m){
 	printf ("\n\nTrung binh cong cac phan tu la: %.2f",sum/dem);
 }
 
-//	for (int i=0;i<n;i++);
-//	for (int j=0;j<m;j++);
+
 
 void amln0 (int *p,int n,int m){
 	int max=1;
@@ -68,8 +64,7 @@ void amln0 (int *p,int n,int m){
 	}
 }
 
-//	for (int i=0;i<n;i++);
-//	for (int j=0;j<m;j++);
+
 
 void docFile (int *p,int n,int m){
 	FILE *f = fopen("matranthuc.txt","w");
@@ -89,9 +84,8 @@ void docFile (int *p,int n,int m){
 	if (a) printf ("\n\nFile da duoc ghi tai ./matranthuc.txt");
 }
 
-/*	for (int i=0;i<n;i++);
-	for (int j=0;j<m;j++);
-*/
+
+
 void inFile (int *p,int n,int m){
 	FILE *f = fopen("matranthuc.txt","r");
 	if (f==NULL)
